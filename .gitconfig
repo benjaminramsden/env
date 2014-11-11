@@ -1,0 +1,20 @@
+[user]
+        name = Chris Tozer
+        email = christopherjtozer@gmail.com
+[core]
+        excludesfile = ~/.gitignore
+[alias]
+        st = status
+        co = checkout
+        c- = checkout --
+        br = branch
+        ci = commit
+        cm = commit -m
+        ca = commit -a
+        cam = commit -a -m
+        amend = commit --amend
+        lg = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%an%Creset - %s %Cgreen(%cr)%Creset' --abbrev-commit --branches
+[color]
+        ui = true
+[push]
+        default = matching
