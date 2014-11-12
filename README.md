@@ -5,6 +5,7 @@
 ### New system, permanent configuration:
 
 * This sets up some standard profiles for Bash, VIM, tmux etc.
+* Also installs some crucial stuff
 * `curl https://bitbucket.org/Chris__T/env/raw/master/linux/setup.sh | bash`
 
 ### On SSH to a new system, temporary environment:
