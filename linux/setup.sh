@@ -1,14 +1,20 @@
 #!/bin/bash
+function append {
+  wget -O - https://bitbucket.org/Chris__T/env/raw/master/$1 >> $2
+}
+function write {
+  wget -O - https://bitbucket.org/Chris__T/env/raw/master/$1 > $2
+}
 
 # Bash
-cat .bashrc >> ~/.bashrc
-. .bashrc
+append linux/.bashrc ~/.bashrc
+. ~/.bashrc
 
 # tmux
-cp .tmux.conf ~/
+write linux/.tmux.conf ~/.tmux.conf
 
 # VIM
-cat .vimrc >> ~/.vimrc
+append common/.vimrc ~/.vimrc
 
 # Git
-cp .gitconfig ~/
+write common/.gitconfig ~/.gitconfig
