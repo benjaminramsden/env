@@ -15,6 +15,9 @@ function run {
 append linux/.bashrc ~/.bashrc
 . ~/.bashrc
 
+# Install things
+run linux/install.sh
+
 # tmux
 write linux/.tmux.conf ~/.tmux.conf
 

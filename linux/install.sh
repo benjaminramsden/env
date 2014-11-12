@@ -1,4 +1,6 @@
 #/bin/bash
+# Run with:
+#   `curl https://bitbucket.org/Chris__T/env/raw/master/linux/install.sh | bash`
 if [ `command -v yum` ]
 then
   installer=yum
@@ -18,14 +20,15 @@ then
 fi
 
 function prepare {
-  echo $sudo $installer -y update
-  echo $sudo $installer -y upgrade
+  $sudo $installer -y update
+  $sudo $installer -y upgrade
 }
 function install {
-  echo $sudo $installer -y install $1
+  $sudo $installer -y install $1
 }
 
 prepare
 
 install vim
 install tmux
+install git
