@@ -1,9 +1,12 @@
 #!/bin/bash
 function append {
-  wget -O - https://bitbucket.org/Chris__T/env/raw/master/$1 >> $2
+  curl https://bitbucket.org/Chris__T/env/raw/master/$1 >> $2
 }
 function write {
-  wget -O - https://bitbucket.org/Chris__T/env/raw/master/$1 > $2
+  curl https://bitbucket.org/Chris__T/env/raw/master/$1 > $2
+}
+function run {
+  curl https://bitbucket.org/Chris__T/env/raw/master/$1 | bash
 }
 
 # Bash
