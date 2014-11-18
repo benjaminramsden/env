@@ -14,7 +14,7 @@
         cam = commit -a -m
         amend = commit --amend
         lg = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%an%Creset - %s %Cgreen(%cr)%Creset' --abbrev-commit --branches
-	lol = log --graph --oneline --all --decorate
+        lol = log --graph --oneline --all --decorate
 [color]
         ui = true
 [push]
