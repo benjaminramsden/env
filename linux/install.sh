@@ -32,3 +32,7 @@ prepare
 install vim
 install tmux
 install git
+install python-pip
+
+# Install python packages
+$sudo pip install -r pip_requirements.txt
