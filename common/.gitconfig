@@ -13,9 +13,14 @@
         ca = commit -a
         cam = commit -a -m
         amend = commit --amend
+        l = log --graph --abbrev-commit --all --pretty=format:'%C(white)%h%Creset -%C(auto)%d%Creset %<|(80,trunc)%s %C(white)<%an>%Creset %Cgreen(%cr)'
         lg = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%an%Creset - %s %Cgreen(%cr)%Creset' --abbrev-commit --branches
         lol = log --graph --oneline --all --decorate
 [color]
         ui = true
+[color "diff"]
+        old = red bold
+        new = green bold
+        meta = normal reverse
 [push]
         default = matching
