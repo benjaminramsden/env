@@ -22,5 +22,14 @@
         old = red bold
         new = green bold
         meta = normal reverse
+[color "status"]
+        added = green bold
+        changed = red bold
+        untracked = magenta bold
+        branch = bold
+        nobranch = red bold
+[color "branch"]
+        current = green yellow reverse
+        remote = red bold
 [push]
         default = matching
