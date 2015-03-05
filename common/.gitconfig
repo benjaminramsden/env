@@ -14,15 +14,14 @@
         ca = commit -a
         cam = commit -a -m
         amend = commit --amend
-        l = log --graph --abbrev-commit --all --pretty=format:'%C(white)%h%Creset -%C(auto)%d%Creset %<|(80,trunc)%s %C(white)<%an>%Creset %Cgreen(%cr)'
-        lg = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%an%Creset - %s %Cgreen(%cr)%Creset' --abbrev-commit --branches
+        l = log --graph --abbrev-commit --all --pretty=format:'%C(white)%h%Creset -%C(auto)%d%Creset %<|(100,trunc)%s %C(yellow bold)<%an>%Creset'
         lol = log --graph --oneline --all --decorate
 [color]
         ui = true
 [color "diff"]
         old = red bold
         new = green bold
-        meta = normal reverse
+        meta = white reverse
 [color "status"]
         added = green bold
         changed = red bold
@@ -30,7 +29,10 @@
         branch = bold
         nobranch = red bold
 [color "branch"]
-        current = green yellow reverse
+        current = yellow green
         remote = red bold
+[color "interactive"]
+        prompt = yellow bold
+        help = white
 [push]
         default = matching
