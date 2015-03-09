@@ -6,14 +6,14 @@
 
 * This sets up some standard profiles for Bash, VIM, tmux etc.
 * Also installs some crucial stuff
-    - `curl https://bitbucket.org/Chris__T/env/raw/master/linux/setup.sh | bash`
+    - `curl https://github.com/CJTozer/env/blob/master/linux/setup.sh | bash`
 * also
     - `curl -L http://goo.gl/W9GP7s | bash`
 
 ### On SSH to a new system, temporary environment:
 
 * Sets up PS1 and terminal colors
-    - `source /dev/stdin  <<< "$(curl https://bitbucket.org/Chris__T/env/raw/master/linux/onssh.sh)"`
+    - `source /dev/stdin  <<< "$(curl https://github.com/CJTozer/env/blob/master/linux/onssh.sh)"`
 * or
     - `source /dev/stdin  <<< "$(curl -L http://goo.gl/rWWAji)"`
 * ...this is weird since we need to have the environment set _int the current shell_, which won't happen if we just pipe it to Bash
