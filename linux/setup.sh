@@ -1,6 +1,6 @@
 #!/bin/bash
 # Run with:
-#   `curl https://bitbucket.org/Chris__T/env/raw/master/linux/setup.sh | bash`
+#   `curl https://github.com/CJTozer/env/blob/master/linux/setup.sh | bash`
 function append {
   curl https://bitbucket.org/Chris__T/env/raw/master/$1 >> $2
 }
