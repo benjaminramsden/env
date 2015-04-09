@@ -1,6 +1,6 @@
 #/bin/bash
 # Run with:
-#   `curl https://bitbucket.org/Chris__T/env/raw/master/linux/install.sh | bash`
+#   `curl https://raw.githubusercontent.com/CJTozer/env/master/linux/install.sh | bash`
 if [ `command -v yum` ]
 then
   installer=yum

@@ -1,14 +1,14 @@
 #!/bin/bash
 # Run with:
-#   `curl https://github.com/CJTozer/env/blob/master/linux/setup.sh | bash`
+#   `curl https://raw.githubusercontent.com/CJTozer/env/master/linux/setup.sh | bash`
 function append {
-  curl https://bitbucket.org/Chris__T/env/raw/master/$1 >> $2
+  curl https://raw.githubusercontent.com/CJTozer/env/master/$1 >> $2
 }
 function write {
-  curl https://bitbucket.org/Chris__T/env/raw/master/$1 > $2
+  curl https://raw.githubusercontent.com/CJTozer/env/master/$1 > $2
 }
 function run {
-  curl https://bitbucket.org/Chris__T/env/raw/master/$1 | bash
+  curl https://raw.githubusercontent.com/CJTozer/env/master//$1 | bash
 }
 
 # Bash
