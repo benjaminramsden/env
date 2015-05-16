@@ -5,3 +5,7 @@ alias go='git checkout'
 alias gl='git lol'
 
 alias ll='ls -l'
+
+if [ ! -f ~/git-completion.bash ]; then
+    source ~/git-completion.bash
+fi
