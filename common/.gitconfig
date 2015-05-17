@@ -29,7 +29,7 @@
         branch = bold
         nobranch = red bold
 [color "branch"]
-        current = yellow green
+        current = green
         remote = red bold
 [color "interactive"]
         prompt = yellow bold
