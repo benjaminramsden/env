@@ -9,3 +9,5 @@ alias ll='ls -l'
 if [ ! -f ~/git-completion.bash ]; then
     source ~/git-completion.bash
 fi
+
+export TERM=xterm-256color
