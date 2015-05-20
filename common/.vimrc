@@ -14,7 +14,7 @@ Plugin 'scrooloose/syntastic' " Linting etc.
 
 " status lines
 Plugin 'bling/vim-airline'
-Bundle 'edkolev/tmuxline.vim'
+" Bundle 'edkolev/tmuxline.vim' " if you need to change .tmux.conf.statusline
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
