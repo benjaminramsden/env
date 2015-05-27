@@ -24,6 +24,9 @@ filetype plugin indent on    " required
 let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235
 
+" Buffer list on F5
+:nnoremap <F5> :buffers<CR>:buffer<Space>
+
 " vim-airline
 let g:airline_powerline_fonts=1
 set laststatus=2
