@@ -34,3 +34,6 @@ highlight ColorColumn ctermbg=235
 let g:airline_powerline_fonts=1
 set laststatus=2
 set ttimeoutlen=50
+
+" Don't try to close buffers you move away from
+set hidden
