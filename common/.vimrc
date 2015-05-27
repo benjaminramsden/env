@@ -73,3 +73,6 @@ set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.so
 " Backups are for chumps
 set nobackup
 set noswapfile
+
+" Handy paste mode shortcut
+set pastetoggle=<F2>
