@@ -60,3 +60,10 @@ set smarttab      " insert tabs on the start of a line according to
                   "    shiftwidth, not tabstop
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
+
+" Ignore the obvious stuff
+set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.so
+
+" Backups are for chumps
+set nobackup
+set noswapfile
