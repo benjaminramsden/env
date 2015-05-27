@@ -37,3 +37,7 @@ set ttimeoutlen=50
 
 " Don't try to close buffers you move away from
 set hidden
+
+" Quickly edit/reload the vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
