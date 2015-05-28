@@ -14,7 +14,7 @@ Plugin 'scrooloose/syntastic' " Linting etc.
 
 " status line
 Plugin 'bling/vim-airline'
-" Bundle 'edkolev/tmuxline.vim' " if you need to change .tmux.conf.statusline
+" Plugin 'edkolev/tmuxline.vim' " if you need to change .tmux.conf.statusline
 
 " Ctrl-P
 Plugin 'kien/ctrlp.vim'
