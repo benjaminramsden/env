@@ -31,7 +31,7 @@ let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235
 
 " Colour scheme
-colorscheme mustang
+colorscheme molokai
 
 " Buffer list on F5
 :nnoremap <F5> :buffers<CR>:buffer<Space>
