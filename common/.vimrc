@@ -30,8 +30,9 @@ let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235
 
 " Colour scheme
-let g:solarized_termcolors=256
-colorscheme solarized
+" - for solarized, follow instructions here: http://www.if-not-true-then-false.com/2012/solarized-linux/
+" colorscheme solarized
+colorscheme molokai
 set bg=dark
 
 " Buffer list on F5
