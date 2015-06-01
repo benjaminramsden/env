@@ -37,6 +37,12 @@ set bg=dark
 " Buffer list on F5
 :nnoremap <F5> :buffers<CR>:buffer<Space>
 
+" Handy paste mode shortcut
+set pastetoggle=<F2>
+
+" Unhilight on F12
+:nnoremap <F12> :noh<CR>
+
 " vim-airline
 let g:airline_powerline_fonts=1
 set laststatus=2
@@ -74,6 +80,3 @@ set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.so
 " Backups are for chumps
 set nobackup
 set noswapfile
-
-" Handy paste mode shortcut
-set pastetoggle=<F2>
