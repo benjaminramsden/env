@@ -21,9 +21,6 @@ Plugin 'bling/vim-airline'
 " Ctrl-P
 Plugin 'kien/ctrlp.vim'
 
-" Colours
-Plugin 'flazz/vim-colorschemes'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -33,7 +30,9 @@ let &colorcolumn="80,".join(range(120,999),",")
 highlight ColorColumn ctermbg=235
 
 " Colour scheme
-colorscheme molokai
+let g:solarized_termcolors=256
+colorscheme solarized
+set bg=dark
 
 " Buffer list on F5
 :nnoremap <F5> :buffers<CR>:buffer<Space>
