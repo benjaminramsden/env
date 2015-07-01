@@ -8,6 +8,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" molokai
+Plugin 'tomasr/molokai'
+
 " rust
 Plugin 'rust-lang/rust.vim'   " Rust
 Plugin 'scrooloose/syntastic' " Linting etc.
