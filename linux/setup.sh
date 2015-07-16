@@ -11,6 +11,9 @@ function run {
   curl https://raw.githubusercontent.com/CJTozer/env/master//$1 | bash
 }
 
+# Git
+append linux/git-completion.bash ~/git-completion.bash
+
 # Bash
 append linux/.bashrc ~/.bashrc
 . ~/.bashrc
