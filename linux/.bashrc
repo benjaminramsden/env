@@ -7,7 +7,7 @@ alias gl='git lol'
 alias ls='ls --color'
 alias ll='ls -l'
 
-if [ ! -f ~/git-completion.bash ]; then
+if [ -f ~/git-completion.bash ]; then
     source ~/git-completion.bash
 fi
 
