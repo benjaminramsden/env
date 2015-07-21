@@ -51,6 +51,7 @@ set pastetoggle=<F2>
 let g:airline_powerline_fonts=1
 set laststatus=2
 set ttimeoutlen=50
+let g:airline#extensions#tmuxline#enabled = 0 " Don't override Tmux theme when opening Vim
 
 " Don't try to close buffers you move away from
 set hidden
