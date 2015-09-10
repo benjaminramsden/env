@@ -17,6 +17,7 @@
         l = log --graph --abbrev-commit --all --pretty=format:'%C(white)%h%Creset -%C(auto)%d%Creset %<|(100,trunc)%s %C(yellow bold)<%an>%Creset'
         lol = log --graph --oneline --all --decorate
         note = branch --edit-description
+        ds = diff --stat
 [color]
         ui = true
 [color "diff"]
