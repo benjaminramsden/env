@@ -23,6 +23,7 @@ run linux/install.sh
 
 # tmux
 write linux/.tmux.conf ~/.tmux.conf
+write linux/.tmux.statusline.conf ~/.tmux.statusline.conf
 
 # VIM
 append common/.vimrc ~/.vimrc
