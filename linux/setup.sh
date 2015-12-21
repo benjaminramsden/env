@@ -12,7 +12,7 @@ function run {
 }
 
 # Git
-append linux/git-completion.bash ~/git-completion.bash
+write linux/git-completion.bash ~/git-completion.bash
 
 # Bash
 append linux/.bashrc ~/.bashrc
