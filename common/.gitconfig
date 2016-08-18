@@ -1,6 +1,6 @@
 [user]
-        name = Chris Tozer
-        email = christopherjtozer@gmail.com
+        name = Ben Ramsden
+        email = benjaminramsden@gmail.com
 [core]
         excludesfile = ~/.gitignore
         editor = vim
@@ -9,6 +9,7 @@
         co = checkout
         c- = checkout --
         br = branch
+        rb = svn rebase
         ci = commit
         cm = commit -m
         ca = commit -a
