@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Ben Ramsden
+    email = benxxxxx@gmail.com
+[alias]
+  co = checkout
+  ci = commit
+  br = branch
+  st = status
+  hist = "log --pretty=format:'%h %ad | %s%d[%an]' --graph --date=short"
+  c- = checkout --
+  rb = svn rebase
+  cm = commit -m
+  ca = commit -a
+  cam = commit -a -m
+  amend = commit --amend
+  l = log --graph --abbrev-commit --all --pretty=format:'%C(white)%h%Creset -%C(auto)%d%Creset %<|(100,trunc)%s %C(yellow bold)<%an>%Creset'
+  ll = log --graph --pretty=full --all --decorate --stat
+  lol = log --graph --oneline --all --decorate
+  note = branch --edit-description
+  ds = diff --stat
+  dm = diff master...
+[push]
+  default = simple
