@@ -130,9 +130,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
 
-# export REPO_SERVER='br1@repo.cw-ngv.com'
-# export REPO_DIR='/home/br1/www-secure/repo'
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
